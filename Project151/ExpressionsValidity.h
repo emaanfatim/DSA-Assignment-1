@@ -1,9 +1,9 @@
 #include <string>
 #include <stack>
 #include <cctype> 
-
-bool isValidExpression(const std::string& expression) {
-    std::stack<char> s;
+using namespace std;
+bool isValidExpression(const string& expression) {
+    stack<char> s;
     char lastChar = ' '; 
 
     for (char ch : expression) {
